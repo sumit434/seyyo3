@@ -1,0 +1,1 @@
+require('dotenv').config(); const { EmailService } = require('./backend/src/services/emailService.ts'); async function run() { const service = EmailService.getInstance(); const res = await service.sendOnboardingEmail({ to: 'sumitmane434@gmail.com', tier: 'combined', setupUrl: 'https://www.seyyo.co.in/setup-demo', displayAmount: '?1,999' }); console.log('Result:', res); } run();

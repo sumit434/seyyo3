@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Production & Build outputs
+build/
+dist/
+
+# Test coverage
+coverage/
+
+# OS-generated files
+.DS_Store
+
+# Logs
+*.log
+
+# Local environment & secret files
+.env*
+!.env.example
+
+# Local database storage
+.seyo_db_store.json

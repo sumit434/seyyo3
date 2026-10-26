@@ -1,0 +1,8 @@
+{
+  "name": "SEYO - Merchant Loyalty & Customer Engagement Platform",
+  "description": "Multi-tenant QR/NFC customer engagement platform with tier-based Spin, Loyalty, Review, and Combined journeys, secure magic-link merchant onboarding, and staff terminals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -4,7 +4,7 @@ import assert from 'assert';
 const BASE = 'http://localhost:3000';
 
 async function run() {
-  console.log('=== SEYO Loyalty-Tier First-Stamp & Parity Acceptance Tests ===\n');
+  console.log('=== SEYYO Loyalty-Tier First-Stamp & Parity Acceptance Tests ===\n');
 
   // 1. Create a pure Loyalty-tier merchant via onboarding flow
   const email = `loyalty_${Date.now()}@bakery.com`;

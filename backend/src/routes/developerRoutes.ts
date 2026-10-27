@@ -14,7 +14,7 @@ interface DeveloperSession {
 const activeDeveloperSessions = new Map<string, DeveloperSession>();
 
 // Developer access key (configurable via env var or secure fallback)
-const getDeveloperKey = () => process.env.DEVELOPER_ACCESS_KEY || 'seyodev2026';
+const getDeveloperKey = () => process.env.DEVELOPER_ACCESS_KEY;
 
 // Developer authentication middleware
 export const developerAuthMiddleware = (req: Request, res: Response, next: NextFunction) => {

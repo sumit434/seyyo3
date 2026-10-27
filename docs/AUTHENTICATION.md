@@ -1,8 +1,8 @@
-# SEYO — Authentication & MSG91 OTP Integration
+# SEYYO — Authentication & MSG91 OTP Integration
 
 ## 1. Architectural Strategy
 
-Customer authentication in SEYO is structured behind an abstraction layer (`useAuthMode` and `CustomerAuthFlow` on the client, `CustomerAuthService` and `msg91Service` on the backend).
+Customer authentication in SEYYO is structured behind an abstraction layer (`useAuthMode` and `CustomerAuthFlow` on the client, `CustomerAuthService` and `msg91Service` on the backend).
 
 This design ensures:
 1. **Zero Vendor Lock-In:** The underlying identity provider (MSG91 WhatsApp/SMS OTP, custom gateway, or direct customer identification) can be toggled without rewriting the customer journey, wheel UI, or loyalty trackers.

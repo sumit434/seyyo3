@@ -22,7 +22,7 @@ export class EmailService {
     const rawPort =
       process.env.SMTP_PORT ||
       process.env.BREVO_SMTP_PORT ||
-      '587';
+      '465';
     const port = parseInt(rawPort, 10);
 
     const user = (
@@ -59,11 +59,10 @@ export class EmailService {
             rejectUnauthorized: false,
             minVersion: 'TLSv1.2',
           },
-          connectionTimeout: 30000,
-          greetingTimeout: 30000,
-          socketTimeout: 45000,
-          family: 4,
-        } as any);
+          connectionTimeout: 15000,
+          greetingTimeout: 15000,
+          socketTimeout: 30000,
+        });
 
         this.isConfigured = true;
         console.log(`[EmailService] Nodemailer initialized successfully (host: ${host}, port: ${port}, user: ${user})`);

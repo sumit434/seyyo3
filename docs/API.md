@@ -1,4 +1,4 @@
-# SEYO — API Reference & Endpoints
+# SEYYO — API Reference & Endpoints
 
 All endpoints respond with standardized JSON envelopes:
 ```json

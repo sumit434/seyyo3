@@ -19,4 +19,4 @@ coverage/
 !.env.example
 
 # Local database storage
-.seyo_db_store.json
+.seyyo_db_store.json

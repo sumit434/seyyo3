@@ -195,9 +195,9 @@ export const CooldownScreen: React.FC<CooldownScreenProps> = ({
                 rel="noopener noreferrer"
                 title={`Visit ${businessName} on Zomato`}
                 aria-label={`Visit ${businessName} on Zomato`}
-                className="w-11 h-11 rounded-2xl bg-[#E23744] text-white flex items-center justify-center shadow-xs hover:shadow-md hover:scale-105 active:scale-95 transition-all group"
+                className="w-11 h-11 p-2 rounded-2xl bg-[#E23744] text-white flex items-center justify-center shadow-xs hover:shadow-md hover:scale-105 active:scale-95 transition-all group"
               >
-                <span className="font-black text-sm tracking-tighter italic lowercase font-serif group-hover:scale-110 transition-transform">
+                <span className="font-black text-[9px] tracking-tighter italic lowercase font-serif group-hover:scale-110 transition-transform">
                   zomato
                 </span>
               </a>
@@ -233,7 +233,7 @@ export const CooldownScreen: React.FC<CooldownScreenProps> = ({
                 className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white flex items-center justify-center shadow-xs hover:shadow-md hover:scale-105 active:scale-95 transition-all group"
               >
                 <svg
-                  className="w-5 h-5 stroke-current stroke-2 fill-none group-hover:scale-110 transition-transform"
+                  className="w-6.5 h-6.5 stroke-current stroke-[2.2] fill-none group-hover:scale-110 transition-transform"
                   viewBox="0 0 24 24"
                 >
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />

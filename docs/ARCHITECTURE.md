@@ -1,8 +1,8 @@
-# SEYO — System Architecture Documentation
+# SEYYO — System Architecture Documentation
 
 ## 1. High-Level Architectural Overview
 
-SEYO is a multi-tenant QR/NFC customer loyalty and engagement platform organized around server-authoritative customer status evaluation and four distinct merchant product tiers:
+SEYYO is a multi-tenant QR/NFC customer loyalty and engagement platform organized around server-authoritative customer status evaluation and four distinct merchant product tiers:
 1. `spin` — 100% all-win gamified reward wheels
 2. `loyalty` — Digital visit milestone stamp cards
 3. `review` — Google Review accelerator with prior server persistence

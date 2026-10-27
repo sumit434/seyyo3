@@ -240,10 +240,7 @@ export const DeveloperDashboardPage: React.FC = () => {
               <ArrowRight className="w-4 h-4" />
             </Button>
 
-            <div className="p-3 rounded-2xl bg-[#f8faf9] border border-[#e2e7e6] text-[11px] text-[#6a787e]">
-              <span className="font-bold text-[#10181c]">Developer note: </span>
-              Default development key is <code className="bg-[#e2e7e6] px-1 py-0.5 rounded text-[#0e7c66] font-bold">seyodev2026</code>.
-            </div>
+            
           </form>
         </div>
       </div>
@@ -380,7 +377,7 @@ export const DeveloperDashboardPage: React.FC = () => {
             <Building2 className="w-10 h-10 text-[#6a787e] mx-auto" />
             <h3 className="text-base font-bold text-[#10181c]">No clients registered yet.</h3>
             <p className="text-xs text-[#6a787e] max-w-xs mx-auto">
-              New merchant subscriptions created via the SEYO landing page will automatically appear here.
+              New merchant subscriptions created via the SEYYO landing page will automatically appear here.
             </p>
           </div>
         )}

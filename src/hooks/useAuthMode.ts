@@ -37,7 +37,7 @@ export interface UseAuthModeReturn {
 /**
  * Authentication Abstraction Layer Hook (useAuthMode)
  * Allows the authentication provider to switch between live MSG91 phone OTP
- * and SEYO direct inline verification seamlessly, with automatic soft-bypass
+ * and SEYYO direct inline verification seamlessly, with automatic soft-bypass
  * for smooth local customer onboarding.
  */
 export function useAuthMode(): UseAuthModeReturn {

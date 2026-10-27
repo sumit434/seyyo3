@@ -25,7 +25,7 @@ export const ConfirmationStep: React.FC<ConfirmationStepProps> = ({
   return (
     <div className="space-y-5 text-left">
       <div>
-        <h2 className="text-2xl font-bold text-[#10181c]">Ready to Launch Your SEYO Platform</h2>
+        <h2 className="text-2xl font-bold text-[#10181c]">Ready to Launch Your SEYYO Platform</h2>
         <p className="text-sm text-[#6a787e] mt-1">
           Review your configuration summary before activating the live customer campaign.
         </p>

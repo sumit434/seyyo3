@@ -1,11 +1,11 @@
-# SEYO — Merchant Loyalty & Customer Engagement Platform
+# SEYYO — Merchant Loyalty & Customer Engagement Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-QR%20%2F%20NFC-0e7c66.svg)](#)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](#)
 [![Node](https://img.shields.io/badge/Node.js-18%2B%20%2F%2022-green.svg)](#)
 
-SEYO is a multi-tenant QR/NFC customer engagement platform engineered to industrial-grade standards. It powers four merchant product tiers (**Spin**, **Loyalty**, **Review**, and **Combined**) with cryptographic magic-link onboarding, server-authoritative customer status evaluation, unified voucher deferral routing, a non-disruptive 365-day subscription lifecycle with instant reactive renewal, and on-premise staff terminal verification.
+SEYYO is a multi-tenant QR/NFC customer engagement platform engineered to industrial-grade standards. It powers four merchant product tiers (**Spin**, **Loyalty**, **Review**, and **Combined**) with cryptographic magic-link onboarding, server-authoritative customer status evaluation, unified voucher deferral routing, a non-disruptive 365-day subscription lifecycle with instant reactive renewal, and on-premise staff terminal verification.
 
 ---
 
@@ -129,7 +129,7 @@ SEYO is a multi-tenant QR/NFC customer engagement platform engineered to industr
 ### 1. Clone & Install
 ```bash
 git clone <repo-url>
-cd seyo
+cd seyyo
 npm install
 ```
 
@@ -240,7 +240,7 @@ The runtime uses `MemoryDB` with non-blocking MongoDB hydration. In local develo
 ## 8. Folder Structure
 
 ```text
-seyo/
+seyyo/
 ├── backend/
 │   └── src/
 │       ├── app.ts                 # Express application assembly, middleware & route mounting

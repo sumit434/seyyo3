@@ -20,3 +20,8 @@ coverage/
 
 # Local database storage
 .seyyo_db_store.json
+
+# Manual / local test scripts
+test-*.cjs
+test-*.mjs
+test-*.js

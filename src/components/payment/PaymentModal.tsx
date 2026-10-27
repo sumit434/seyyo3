@@ -387,7 +387,7 @@ export const PaymentModal: React.FC<PaymentModalProps> = ({
           {/* Legal / Compliance Links required by Razorpay Onboarding */}
           <div className="pt-2 border-t border-[#e2e7e6] text-center">
             <p className="text-[11px] text-[#6a787e] mb-1.5">
-              By proceeding with payment, you agree to SEYO's policies:
+              By proceeding with payment, you agree to SEYYO's policies:
             </p>
             <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs">
               <a
